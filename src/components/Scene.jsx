@@ -1,7 +1,7 @@
 "use client"
 
 import { Canvas } from "@react-three/fiber"
-import Player from "./Player"
+import Character from "./Character"
 
 export default function Scene() {
   return (
@@ -27,7 +27,7 @@ export default function Scene() {
       </mesh>
 
       {/* Player */}
-      <Player />
+     <Character />
 
     </Canvas>
   )
